@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 32px;
+}
 .clr{
     color: limegreen;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 150px;
     padding-right: 8%;
@@ -17,7 +20,7 @@ section{
 .half-width{
     width: 50%;
     padding-left: 7%;
-    padding-top: 2%;  
+    padding-top: 2%;
 }
 .half-width img{
     width: 65%;
@@ -37,8 +40,24 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.dream-big{
+.dream-banner{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-right: 5%;
+    padding: 20px;
+}
+.experience-item p{
+    text-align: justify;
 }
