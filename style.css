@@ -50,6 +50,9 @@ h2{
     background-repeat: no-repeat;
     background-position: left;
 }
+.experience-area h1{
+    text-align: center;
+}
 .experience-item{
     width: 40%;
     box-shadow: 10px 10px 40px gray;
@@ -60,4 +63,52 @@ h2{
 }
 .experience-item p{
     text-align: justify;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+#beginner{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.new-width{
+    text-align: center;
+}
+.new-width img{
+    width: 400px;
+}
+.facebook-button{
+    text-decoration: none;
+    color: white;
+    background-color: #1976f2;
+    padding: 5px 12px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.email-button{
+    text-decoration: none;
+    background-image: linear-gradient(#d64a3a, #e39366);
+    color: white;
+    padding: 5px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.twitter-button{
+    text-decoration: none;
+    background-color: #1da1f2;
+    color: white;
+    padding: 5px 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.instagram-button{
+    text-decoration: none;
+    background-image:linear-gradient(#c22264, #f75b09);
+    color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 5px;
 }
